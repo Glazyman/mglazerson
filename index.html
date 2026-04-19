@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rabbi Matityahu Glazerson</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%234a8ff5'/><text x='50' y='68' font-family='Inter,Arial,sans-serif' font-size='44' font-weight='900' text-anchor='middle' fill='white'>MG</text></svg>">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-inner">
+            <a href="#home" class="navbar-brand">Glazerson<span>.</span></a>
+            <ul class="navbar-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#biography" class="nav-link">Timeline</a></li>
+                <li><a href="#methods" class="nav-link">Methods</a></li>
+                <li><a href="#youtube" class="nav-link">YouTube</a></li>
+                <li><a href="#books" class="nav-link">Books</a></li>
+            </ul>
+            <a href="#donate" class="btn-cta">Support</a>
+            <button id="mobile-menu-button" class="mobile-menu-btn" aria-label="Open menu">
+                <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                </svg>
+            </button>
+        </div>
+        <div id="mobile-menu" class="mobile-menu">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#biography" class="nav-link">Timeline</a>
+            <a href="#methods" class="nav-link">Methods</a>
+            <a href="#youtube" class="nav-link">YouTube</a>
+            <a href="#books" class="nav-link">Books</a>
+            <a href="#donate" class="nav-link">Donate</a>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <img src="https://www.gatewaysonline.org/wp-content/uploads/2022/08/Matityahu-Glazerson.jpg"
+             alt="Rabbi Matityahu Glazerson"
+             class="hero-avatar">
+        <h1 class="hero-title">Rabbi Matityahu<br>Glazerson</h1>
+        <p class="hero-subtitle">Exploring a lifetime of work in Torah Codes, Kabbalah, and Gematria — decoding the hidden messages within the sacred text.</p>
+    </section>
+
+    <main class="main-content">
+
+        <!-- Timeline -->
+        <section id="biography" class="timeline-section">
+            <div class="section-header">
+                <h2 class="section-title">A Life of Dedication</h2>
+                <p class="section-subtitle">A journey through the milestones that shaped a remarkable career in Torah scholarship and research.</p>
+            </div>
+            <div class="timeline-wrapper">
+                <div class="timeline-line"></div>
+
+                <div class="timeline-item-container">
+                    <div class="timeline-card">
+                        <div class="timeline-dot"></div>
+                        <p class="timeline-label">Israel</p>
+                        <h3>Early Life & Education</h3>
+                        <p>Born and educated in Israel, receiving a rigorous traditional Yeshiva education that provided profound textual skills in Hebrew and rabbinic literature.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item-container">
+                    <div class="timeline-card">
+                        <div class="timeline-dot"></div>
+                        <p class="timeline-label">Johannesburg · 1964</p>
+                        <h3>A Move to South Africa</h3>
+                        <p>Relocated to Johannesburg, where he established and served as the head of the Yeshivah Torat Emet, demonstrating early leadership in Jewish education.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item-container">
+                    <div class="timeline-card">
+                        <div class="timeline-dot"></div>
+                        <p class="timeline-label">Israel · 1980</p>
+                        <h3>Return & Prolific Author</h3>
+                        <p>Returned to Israel and began a prolific period of teaching and writing, authoring over 30 books and a weekly newspaper column applying his methods to current events.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item-container">
+                    <div class="timeline-card">
+                        <div class="timeline-dot"></div>
+                        <p class="timeline-label">International · Present</p>
+                        <h3>Global Outreach</h3>
+                        <p>Continues to teach internationally, associated with a messianic movement and focused on making Judaism accessible through his unique interpretive lens.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Methods -->
+        <section id="methods" class="methods-section">
+            <div class="section-header">
+                <h2 class="section-title">The Three Keys of Interpretation</h2>
+                <p class="section-subtitle">Three distinct but complementary methodologies to uncover the hidden layers of the Torah.</p>
+            </div>
+            <div class="neu-card">
+                <div style="padding: 2.5rem 2.5rem 1.5rem;">
+                    <div class="tab-group">
+                        <button data-tab="els" class="tab-button active">📜 Torah Codes</button>
+                        <button data-tab="gematria" class="tab-button">🔢 Gematria</button>
+                        <button data-tab="kabbalah" class="tab-button">✨ Kabbalah</button>
+                    </div>
+                </div>
+                <div class="neu-card-inset tab-content" style="margin: 0 2rem 2rem;">
+                    <div id="content-els" class="tab-pane">
+                        <h3>Equidistant Letter Sequences (ELS)</h3>
+                        <p>The core modern technique. The Torah text is viewed as a single, continuous string of letters. A computer searches for words by starting at a letter and skipping an equal number of letters. When related terms are found in close proximity, it is presented as a statistically unlikely, and therefore divinely intended, encoded message.</p>
+                    </div>
+                    <div id="content-gematria" class="tab-pane" style="display:none;">
+                        <h3>Gematria</h3>
+                        <p>An ancient system of Hebrew numerology where each letter is assigned a numerical value. Words or phrases that share the same numerical total are considered to have a hidden conceptual connection. Rabbi Glazerson uses this to support and add depth to findings from Torah codes.</p>
+                    </div>
+                    <div id="content-kabbalah" class="tab-pane" style="display:none;">
+                        <h3>Kabbalah</h3>
+                        <p>The tradition of Jewish mysticism provides the spiritual foundation for the work. Kabbalah posits that the Torah is a multi-layered, living document—the blueprint for all creation. This worldview provides the rationale for why hidden codes should exist and be discoverable.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blueprint Stats -->
+        <section id="blueprint" class="blueprint-section">
+            <div class="section-header">
+                <h2 class="section-title">The Divine Blueprint</h2>
+                <p class="section-subtitle">Why do Torah Codes matter? Proponents believe they reveal the Torah as a living document containing the blueprint of all history.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="neu-card stat-card">
+                    <div class="stat-number">304,805<span></span></div>
+                    <div class="stat-label">Letters, One Blueprint</div>
+                    <p class="stat-desc">The Torah's letter-string is viewed not just as text, but as a complex database where all events—past, present, and future—are interwoven.</p>
+                </div>
+                <div class="neu-card stat-card">
+                    <div class="stat-number">Irrefutable<span></span></div>
+                    <div class="stat-label">Proof of Divine Origin</div>
+                    <p class="stat-desc">For believers, the statistical improbability of finding such detailed codes by chance serves as powerful evidence of a supra-human intelligence.</p>
+                </div>
+                <div class="neu-card stat-card">
+                    <div class="stat-number">A Modern<span></span></div>
+                    <div class="stat-label">Form of Revelation</div>
+                    <p class="stat-desc">In a technological age, the discovery of codes via computers is seen by some as a new way God is revealing the Torah's timeless relevance.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- YouTube -->
+        <section id="youtube" class="neu-card youtube-section">
+            <h2>Latest Teachings on YouTube</h2>
+            <p>Rabbi Glazerson actively shares his latest findings and teachings on current events through his YouTube channel, reaching a global audience.</p>
+            <a href="https://www.youtube.com/@MatityahuGlazerson/videos"
+               target="_blank" rel="noopener noreferrer"
+               class="btn-primary">
+                View Latest Videos on YouTube
+            </a>
+        </section>
+
+        <!-- Books -->
+        <section id="books" class="books-section">
+            <div class="section-header">
+                <h2 class="section-title">Explore the Bibliography</h2>
+                <p class="section-subtitle">Dozens of books disseminating his work on a global scale. Filter and explore his publications below.</p>
+            </div>
+
+            <div class="filter-group">
+                <button class="filter-btn active" data-filter="all">All Books</button>
+                <button class="filter-btn" data-filter="codes">Torah Codes & Prophecy</button>
+                <button class="filter-btn" data-filter="gematria">Gematria & Hebrew</button>
+                <button class="filter-btn" data-filter="kabbalah">Kabbalah & Mysticism</button>
+            </div>
+
+            <div id="book-list" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+                <!-- Dynamically inserted -->
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="donate" class="footer">
+        <h3>Support the Work</h3>
+        <p>If you find value in this research and outreach, please consider making a contribution.</p>
+        <a href="https://www.paypal.com/paypalme/mglazerson"
+           target="_blank" rel="noopener noreferrer"
+           class="btn-donate">
+            Donate via PayPal
+        </a>
+        <p class="footer-copyright">&copy; 2024. All Rights Reserved</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+
+            // ── Books data ──
+            const allBooks = [
+                { title: 'End of days in Bible Codes', category: 'codes', color: 'f94144', img: 'https://m.media-amazon.com/images/I/51flyOgBbEL._SL1360_.jpg' },
+                { title: 'Torah Codes: Glimpse into the Infinite', category: 'codes', color: 'f94144', img: 'https://m.media-amazon.com/images/I/51W0B1971YL.jpg' },
+                { title: 'The Twin Towers In Torah Codes', category: 'codes', color: 'f94144', img: 'https://m.media-amazon.com/images/I/41XybaSYE8L.jpg' },
+                { title: 'THE HOLOCAUST IN TORAH CODES', category: 'codes', color: 'f94144', img: 'https://m.media-amazon.com/images/I/519qbaWJdQL.jpg' },
+                { title: 'PHILISTINE AND PALESTINIAN IN CODES', category: 'codes', color: 'f94144', img: 'https://m.media-amazon.com/images/I/31uFEAuhaPL.jpg' },
+                { title: 'Light Out of Darkness', category: 'codes', color: 'f94144', img: 'https://m.media-amazon.com/images/I/71aSiBjdCXL._SL1500_.jpg' },
+                { title: 'Real Torah Codes', category: 'codes', color: 'f94144', img: 'https://m.media-amazon.com/images/I/51cD+nF3u0L.jpg' },
+                { title: 'Letters of Fire', category: 'gematria', color: 'd97706', img: 'https://m.media-amazon.com/images/I/51XZprwT-4L.jpg' },
+                { title: 'Building Blocks of the Soul', category: 'gematria', color: 'd97706', img: 'https://m.media-amazon.com/images/I/71cLSw20W8L._SL1360_.jpg' },
+                { title: 'Repentance in Words and Letters', category: 'gematria', color: 'd97706', img: 'https://m.media-amazon.com/images/I/A1hRzvoBVKL._SL1500_.jpg' },
+                { title: 'The Geometry of the Hebrew Alphabet', category: 'gematria', color: 'd97706', img: 'https://m.media-amazon.com/images/I/31M61fXhTAL.jpg' },
+                { title: 'Hebrew Source of Languages', category: 'gematria', color: 'd97706', img: 'https://m.media-amazon.com/images/I/91UorxEquIL._SL1500_.jpg' },
+                { title: 'Music and Kabbalah', category: 'kabbalah', color: '0369a1', img: 'https://m.media-amazon.com/images/I/71dFfoJWOWL._SL1304_.jpg' },
+                { title: 'Above the Zodiac', category: 'kabbalah', color: '0369a1', img: 'https://m.media-amazon.com/images/I/71PmOpW9bJL._SL1360_.jpg' },
+                { title: 'Bible Codes and Kabbalah', category: 'kabbalah', color: '0369a1', img: 'https://m.media-amazon.com/images/I/91be3IJf2ML._SL1500_.jpg' },
+                { title: 'The Mystical Glory of Sabbath', category: 'kabbalah', color: '0369a1', img: 'https://m.media-amazon.com/images/I/61WnGdPIqfL._SL1360_.jpg' },
+                { title: 'The Secrets of the Haggadah', category: 'kabbalah', color: '0369a1', img: 'https://m.media-amazon.com/images/I/71r8KJWLEhL._SL1304_.jpg' },
+                { title: 'Torah, Light and Healing', category: 'kabbalah', color: '0369a1', img: 'https://m.media-amazon.com/images/I/91Jxj-AG-VL._SL1500_.jpg' },
+                { title: 'Times for redemption', category: 'codes', color: 'f94144', img: 'https://m.media-amazon.com/images/I/51DWgoRVmHL.jpg' },
+            ];
+
+            function amazonLink(title) {
+                return `https://www.amazon.com/s?k=${encodeURIComponent(title + ' Matityahu Glazerson')}`;
+            }
+
+            const bookList = document.getElementById('book-list');
+            const filterBtns = document.querySelectorAll('.filter-btn');
+
+            function displayBooks(filter = 'all') {
+                bookList.innerHTML = '';
+                const books = filter === 'all' ? allBooks : allBooks.filter(b => b.category === filter);
+                books.forEach(book => {
+                    const card = document.createElement('div');
+                    card.className = 'book-card';
+                    card.innerHTML = `
+                        <img src="${book.img}" alt="${book.title}" class="book-cover"
+                             onerror="this.src='https://placehold.co/400x500/${book.color}/ffffff?text=${encodeURIComponent(book.title)}'">
+                        <div class="book-body">
+                            <p class="book-title">${book.title}</p>
+                            <a href="${amazonLink(book.title)}" target="_blank" rel="noopener noreferrer" class="btn-amazon">View on Amazon</a>
+                        </div>
+                    `;
+                    bookList.appendChild(card);
+                });
+            }
+
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    displayBooks(btn.dataset.filter);
+                });
+            });
+
+            displayBooks();
+
+            // ── Tabs ──
+            const tabs = document.querySelectorAll('.tab-button');
+            tabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    tabs.forEach(t => t.classList.remove('active'));
+                    tab.classList.add('active');
+                    document.querySelectorAll('.tab-pane').forEach(p => p.style.display = 'none');
+                    document.getElementById(`content-${tab.dataset.tab}`).style.display = 'block';
+                });
+            });
+
+            // ── Mobile menu ──
+            document.getElementById('mobile-menu-button').addEventListener('click', () => {
+                document.getElementById('mobile-menu').classList.toggle('open');
+            });
+
+            // ── Active nav on scroll ──
+            const sections = document.querySelectorAll('section[id], footer[id]');
+            const navLinks = document.querySelectorAll('.nav-link');
+
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        navLinks.forEach(link => {
+                            link.classList.remove('active');
+                            if (link.getAttribute('href') === '#' + entry.target.id) {
+                                link.classList.add('active');
+                            }
+                        });
+                    }
+                });
+            }, { rootMargin: '-50% 0px -50% 0px' });
+
+            sections.forEach(s => observer.observe(s));
+        });
+    </script>
+</body>
+</html>
