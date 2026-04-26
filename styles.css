@@ -140,6 +140,16 @@ h1, h2, h3, h4 {
     box-shadow: 0 10px 28px rgba(74, 143, 245, 0.5);
 }
 
+.btn-yt {
+    background: #ff0000;
+    box-shadow: 0 6px 20px rgba(255, 0, 0, 0.35);
+}
+
+.btn-yt:hover {
+    background: #cc0000;
+    box-shadow: 0 10px 28px rgba(255, 0, 0, 0.45);
+}
+
 .mobile-menu-btn {
     display: none;
     background: none;
